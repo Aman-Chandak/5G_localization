@@ -1,2 +1,1 @@
-hello
-
+This repository contains the code for the 5G Localization project which uses 5G PRS signals for localization of the user equipment. The procedure is based on using OpenAirInterface (OAI) and its 5G PRS signals for localization but instead of utilizing the ToA (Time of Arrival) computation in OAI, I have employed OAI architecture to gather the PRS signal and then compute the ToA using the statistical methods. The ToA values are then used to compute the distance between the user equipment and the base station and then the position of the user equipment is computed using the trilateration method.
