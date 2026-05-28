@@ -1,0 +1,6 @@
+dis.pdf
+*.aux
+*.log
+*.out
+__pycache__/
+.DS_Store
